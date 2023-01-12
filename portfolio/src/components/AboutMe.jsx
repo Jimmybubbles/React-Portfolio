@@ -5,9 +5,8 @@ function AboutMe() {
         <div>
             <p>
                 Financial market speculator analyst / aspiring full stack developer.
-                <hr />
-                currently
             </p>
+            
         </div>
 
     )

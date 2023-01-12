@@ -35,7 +35,7 @@ function Header() {
                     target="_blank"
                     href="https://github.com"
                     >
-                     <span className='content is-large'>James</span>   
+                     <span>James</span>   
                     </a>
                 </div>
             </nav>
