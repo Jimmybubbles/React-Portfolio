@@ -13,7 +13,7 @@ function About() {
             <section>
                 <h1>Work Experience</h1>
                 {React.Children.toArray(
-                    workDetails.map(({ Position, Company, Location, Type, Duration}) => {
+                    workDetails.map(({Position, Company, Location, Type, Duration}) => {
                         <Work
                         position={Position}
                         company={Company}
@@ -37,6 +37,7 @@ function About() {
                         duration={Duration}
                         />
                     })
+                    
                 )}
             </section>
         </main>

@@ -4,7 +4,7 @@ import logogradient from './assets/logo.svg'
 import logo from './assets/logo2.svg'
 
 // profile image
-import profile from './assets/profile.jpg'
+import profile from './assets/developer.png'
 
 // tech stack images
 import html from './assets/techstack/html.png'
@@ -15,10 +15,8 @@ import react from './assets/techstack/react.png'
 import tailwind from './assets/techstack/tailwind.png'
 import bootstrap from './assets/techstack/bootstrap.png'
 import vscode from './assets/techstack/vscode.png'
-import apollo from './assets/techstack/apollo.png'
-import node from './assets/techstack/node.png'
 import npm from './assets/techstack/npm.png'
-import insomnia from './assets/techstack/insomnia.png'
+
 
 // Project Images
 import projectImage1 from './assets/project/project1.jpg'
@@ -38,8 +36,9 @@ export const logos = {
 
 export const personalDetails = {
     name: "James Russell",
-    tagline: "Create online presents for companies",
+    tagline: "Errors dont kill you they make you stronger...",
     img: profile,
+    job: "Aspiring full stack dev",
     about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book`
 };
 
@@ -106,8 +105,7 @@ export const techStackDetails = {
     bootstrap: bootstrap,
     vscode: vscode,
     npm: npm,
-    git: git,
-    github: github,
+
 }
 
 // dummy project details
@@ -115,6 +113,56 @@ export const projectDetails = [
 {
     title: "Project title 1",
     image: projectImage1,
+    description: `This is sample project description random things are here in description This is sample
+project lorem ipsum generator for dummy content`,
+    techstack: "HTML/CSS, JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com",
+  },
+
+  {
+    title: "Project title 2",
+    image: projectImage2,
+    description: `This is sample project description random things are here in description This is sample
+project lorem ipsum generator for dummy content`,
+    techstack: "HTML/CSS, JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com",
+  },
+
+  {
+    title: "Project title 2",
+    image: projectImage3,
+    description: `This is sample project description random things are here in description This is sample
+project lorem ipsum generator for dummy content`,
+    techstack: "HTML/CSS, JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com",
+  },
+
+  {
+    title: "Project title 2",
+    image: projectImage4,
+    description: `This is sample project description random things are here in description This is sample
+project lorem ipsum generator for dummy content`,
+    techstack: "HTML/CSS, JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com",
+  },
+
+  {
+    title: "Project title 2",
+    image: projectImage5,
+    description: `This is sample project description random things are here in description This is sample
+project lorem ipsum generator for dummy content`,
+    techstack: "HTML/CSS, JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com",
+  },
+
+  {
+    title: "Project title 2",
+    image: projectImage6,
     description: `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
     techstack: "HTML/CSS, JavaScript",

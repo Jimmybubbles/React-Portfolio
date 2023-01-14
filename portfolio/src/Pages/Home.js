@@ -1,12 +1,13 @@
 import React, { useEffect, useRef } from "react";
-import gsap from "gasp";
+import gsap from "gsap";
 import { personalDetails } from "../details";
 
 function Home() {
-    const { name, tagline, img } = personalDetails;
+    const { name, tagline, img, job } = personalDetails;
     const h11 = useRef();
     const h12 = useRef();
     const h13 = useRef();
+    const h14 = useRef();
     const myimageref = useRef();
     useEffect(() => {
         const tl = gsap.timeline();
@@ -25,7 +26,7 @@ function Home() {
                 h12.current,
                 {
                     x: "-100%",
-                    delay: 0.8,
+                    delay: 0.7,
                     opacity: 0,
                     duration: 2,
                     ease: "Power3.easeOut",
@@ -37,7 +38,19 @@ function Home() {
                 h13.current,
                 {
                     x: "-100%",
-                    delay: 0.1,
+                    delay: 0.6,
+                    opacity: 0,
+                    duration: 2,
+                    ease: "Power3.easeOut",
+                },
+                "<"
+            )
+
+            .from(
+                h14.current,
+                {
+                    x: "-100%",
+                    delay: 0.4,
                     opacity: 0,
                     duration: 2,
                     ease: "Power3.easeOut",
@@ -48,8 +61,8 @@ function Home() {
             .from(
                 myimageref.current,
                 {
-                    x: "-100%",
-                    delay: 0.1,
+                    x: "200%",
+                    delay: 0.5,
                     opacity: 0,
                     duration: 2,
                     ease: "Power3.easeOut",
@@ -59,14 +72,39 @@ function Home() {
     }, []);
 
     return (
-        <main>
+        <main className="container mx-auto max-width section md:flex justify-between items-center">
             <div>
-                <h1>Hi,👋<br></br>My name is<br></br></h1>
-                <h1>{name}</h1>
-                <h2>{tagline}</h2>
+                <h1
+                ref={h11}
+                className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-Bold"
+                >
+                Hi,👋 My name is<br></br>
+                </h1>
+                
+                <h1 
+                ref={h12}
+                className="text-2xl bg-clip-text bg-gradient text-transparent md:text-4xl xl:text-5xl xl:leading-tight font-bold"
+                >{name}
+                </h1>
+                
+                
+                <h2
+                ref={h13}
+                className="text-2x1 text-dark-heading dark:text-light-heading md:text-4x1 xl:text-3xl xl:leading-tight font-bold"
+                >
+                {job}
+                </h2>
+
+
+                <h2
+                ref={h14}
+                className="text-2x1 text-dark-heading dark:text-light-heading md:text-4x1 xl:text-2xl xl:leading-tight font-bold"
+                >
+                {tagline}
+                </h2>
             </div>
-            <div>
-                <img ref={myimageref} src={img} />
+            <div className="mt-5 md:mt-0">
+                <img ref={myimageref} className="w-3/4 md:ml-auto" src={img} alt="profile"/>
             </div>
         </main>
     )
