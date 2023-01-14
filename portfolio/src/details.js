@@ -95,6 +95,21 @@ export const eduDetails = [
     }
 ];
 
+// Tech Stack and Tools
+export const techStackDetails = {
+    html: html,
+    css: css,
+    js: js,
+    react: react,
+    sass: sass,
+    tailwind: tailwind,
+    bootstrap: bootstrap,
+    vscode: vscode,
+    npm: npm,
+    git: git,
+    github: github,
+}
+
 // dummy project details
 export const projectDetails = [
 {
@@ -111,4 +126,5 @@ project lorem ipsum generator for dummy content`,
 // Contact Details
 export const contactDetails = {
     email: 'james.anthony.russell36@gmail.com',
+    discord: "chartradamus#9765"
 }
