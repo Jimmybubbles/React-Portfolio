@@ -16,6 +16,10 @@ import tailwind from './assets/techstack/tailwind.png'
 import bootstrap from './assets/techstack/bootstrap.png'
 import vscode from './assets/techstack/vscode.png'
 import npm from './assets/techstack/npm.png'
+import git from './assets/techstack/git.png'
+import github from './assets/techstack/github.png'
+import gsap from './assets/techstack/gsap.png'
+import postman from './assets/techstack/postman.png'
 
 
 // Project Images
@@ -39,7 +43,7 @@ export const personalDetails = {
     tagline: "Errors dont kill you they make you stronger...",
     img: profile,
     job: "Aspiring full stack dev",
-    about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book`
+    about: `I am a Junior Full Stack Developer with a passion for creating innovative web applications. I have a strong background in web development, with experience in HTML, CSS, JavaScript, React, Node.js, and MongoDB. I am also familiar with web hosting, server-side scripting, and database management. I am a fast learner and have a strong work ethic. I am always looking for ways to improve my skills and stay up to date with the latest technologies. I am excited to be part of a team that is pushing the boundaries of web development and creating amazing products.`
 };
 
 // social media urls
@@ -105,6 +109,10 @@ export const techStackDetails = {
     bootstrap: bootstrap,
     vscode: vscode,
     npm: npm,
+    git: git,
+    github: github,
+    gsap: gsap,
+    postman: postman
 
 }
 

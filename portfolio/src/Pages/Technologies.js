@@ -14,39 +14,45 @@ function Technologies() {
         git,
         github,
         npm,
+        gsap,
+        postman
+
 
     } = techStackDetails;
 
     return (
-        <main>
+        <main className="container mx-auto max-width pt-10 pb-20">
             <section>
-                <h1>
+                <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
                     Tech Stack
                 </h1>
-                <p>
+                <p className="text-content py-2 lg:max-w-3xl">
                     Technologies I've been working with recently
                 </p>
             </section>
 
-            <section>
-                <img scr={html} title="html" alt="" />
-                <img scr={css} title="css" alt="" />
-                <img scr={js} title="js" alt="" />
-                <img scr={react} title="react" alt="" />
-                <img scr={tailwind} title="tailwind" alt="" />
-                <img scr={bootstrap} title="bootstrap" alt="" />
-                <img scr={sass} title="sass" alt="" />
+            <section className="grid grid-cols-4 md:grid-col-5 lg:grid-cols-6 items-center gap-10 pt-6">
+                <img src={html} title="html" alt="html" />
+                <img src={css} title="css" alt="html" />
+                <img src={js} title="js" alt="html" />
+                <img src={react} title="react" alt="html" />
+                <img src={tailwind} title="tailwind" alt="html" />
+                <img src={bootstrap} title="html" alt="html" />
+                <img src={sass} title="html" alt="html" />
+                <img src={postman} title="postman" alt="postman" />
+               
             </section>
 
             <section>
-                <h1>Tools</h1>
+                <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">Tools</h1>
             </section>
 
-            <section>
-                <img scr={vscode} title="vscode" alt="" />
-                <img scr={git} title="git" alt="" />
-                <img scr={github} title="github" alt="" />
-                <img scr={npm} title="npm" alt="" />
+            <section className="grid grid-cols-4 md:grid-col-5 lg:grid-cols-6 items-center gap-10 pt-6">
+                <img src={vscode} title="html" alt="html" />
+                <img src={github} title="html" alt="html" />
+                <img src={git} title="html" alt="html" />
+                <img src={npm} title="html" alt="html" />
+                <img src={gsap} title="html" alt="html" />
             </section>
         </main>
     )

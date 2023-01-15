@@ -4,14 +4,15 @@ import { personalDetails, workDetails, eduDetails } from "../details";
 
 function About() {
     return (
-        <main>
+        <main className="container mx-auto max-width pt-10 pb-20">
             <section>
-                <h1>About Me</h1>
-                <p>{personalDetails.about}</p>
+                <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight front-bold">
+                    About Me</h1>
+                <p className="text-content py-8 lg:max-w-3xl">{personalDetails.about}</p>
             </section>
 
-            <section>
-                <h1>Work Experience</h1>
+            <section className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight front-bold">
+                <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:leading-tight font-bold">Work Experience</h1>
                 {React.Children.toArray(
                     workDetails.map(({Position, Company, Location, Type, Duration}) => {
                         return (
@@ -28,7 +29,7 @@ function About() {
             </section>
 
             <section>
-                <h1>Education</h1>
+                <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">Education</h1>
                 {React.Children.toArray(
                     eduDetails.map(({ Position, Company, Location, Type, Duration}) => {
                         return(
