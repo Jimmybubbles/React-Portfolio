@@ -43,7 +43,11 @@ export const personalDetails = {
     tagline: "Errors dont kill you they make you stronger...",
     img: profile,
     job: "Aspiring full stack dev",
-    about: `I am a Junior Full Stack Developer with a passion for creating innovative web applications. I have a strong background in web development, with experience in HTML, CSS, JavaScript, React, Node.js, and MongoDB. I am also familiar with web hosting, server-side scripting, and database management. I am a fast learner and have a strong work ethic. I am always looking for ways to improve my skills and stay up to date with the latest technologies. I am excited to be part of a team that is pushing the boundaries of web development and creating amazing products.`
+    about: `I am a Junior Full Stack Developer with a passion for creating innovative web applications. I have a strong background in web development, with experience in HTML, CSS, JavaScript, React, Node.js, and MongoDB. I am also familiar with web hosting, server-side scripting, and database management. 
+    
+    I have a passion for financial predictive models and have been charting stock for a decade, I got tired of manually analyzing stocks so I have committed to learning automation through different languages for the next decade. 
+    
+    I am always looking for ways to improve my skills and stay up to date with the latest technologies. I am currently learning python, and ML to further automation knowledge`
 };
 
 // social media urls
@@ -56,46 +60,26 @@ export const socialMediaUrl = {
 
 export const workDetails = [
     {
-        Position: "Frontend Web Developer",
-        Company: "finance hub",
+        Position: "freelance",
+        Company: "handyfixer",
         Location:"Australia",
         Type:"Full time",
-        Duration:"Sep 2021 - Dec 2021",
+        Duration:"February 2023 - current",
     },
 
-    {
-        Position: "Frontend Web Developer",
-        Company: "finance hub",
-        Location:"Australia",
-        Type:"Full time",
-        Duration:"Sep 2021 - Dec 2021",
-    },
 
-    {
-        Position: "Internship",
-        Company: "finance hub",
-        Location:"Australia",
-        Type:"Full time",
-        Duration:"Sep 2021 - Dec 2021",
-    }
 ];
 
 // Education details
 export const eduDetails = [
     {
-        Position: "Frontend Development",
-        Company: "Udemy, YouTube, Google, Medium",
+        Position: "Full stack developer",
+        University: "Monash University",
         Location: "Online",
-        Type: "Full Time",
-        Duration: "Jan 2022 - Present",
+        Type: "bootcamp",
+        Duration: "August 2022 - February 2023",
     },
-    {
-        Position: "full stack bootcamp ",
-        Company: "Monash University",
-        Location: "Online",
-        Type: "Full Time",
-        Duration: "August 2022 - Present",
-    }
+
 ];
 
 // Tech Stack and Tools
@@ -119,27 +103,29 @@ export const techStackDetails = {
 // dummy project details
 export const projectDetails = [
 {
-    title: "Project title 1",
+    title: "STOCK full stack application",
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `stock screening application that downloads new close price daily and then allows the user to search baised on existing strategies. 
+    
+    work in progress.`,
+    techstack: "Jinja templates, sematic ui, python",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
 
   {
-    title: "Project title 2",
+    title: "booking.com clone",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `clone of booking.com. turned it into a rehabilitation clinic site for opioid users in the USA. 
+    
+    credit to youtuber lamadev for original`,
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
 
   {
-    title: "Project title 2",
+    title: "",
     image: projectImage3,
     description: `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
