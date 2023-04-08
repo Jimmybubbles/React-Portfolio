@@ -1,12 +1,12 @@
 import React from "react";
 
-function Project({ title, image, descirption, techstack, previewLink, githubLink }) {
+function Project({ title, image, description, techstack, previewLink, githubLink }) {
   return (
     <article className="rounded-xl mt-10 overflow-hidden shadow-xl shadow-slate-300 dark:shadow-slate-900">
-      <img scr={image} alt="test" Loading="lazy" />
+      <img src={image} alt="fix the image you hack" loading="lazy" style={{height:200, width:300 }} />
       <div className="dark:bg-dark-card p-4">
         <h1 className="dark:text-light-heading front-semibold text-lg pt-1">{title}</h1>
-        <p className="text-content pt-4 font-light">{descirption}</p>
+        <p className="text-content pt-4 font-light">{description}</p>
         <h3 className="text-dark-heading dark:text-light-heading front-medium pt-4">
           Tech Stack : <span className="font-light">{techstack}</span>
         </h3>

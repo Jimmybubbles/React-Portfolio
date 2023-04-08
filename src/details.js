@@ -23,14 +23,14 @@ import postman from './assets/techstack/postman.png'
 
 
 // Project Images
-import projectImage1 from './assets/project/project1.jpg'
-import projectImage2 from './assets/project/project2.jpg'
+import projectImage1 from './assets/project/stocklist.png'
+import projectImage2 from './assets/project/wellness.png'
 import projectImage3 from './assets/project/project3.jpg'
-import projectImage4 from './assets/project/project4.jpg'
-import projectImage5 from './assets/project/project5.jpg' 
-import projectImage6 from './assets/project/project6.jpg'
+import projectImage4 from './assets/project/searchreact.png'
+import projectImage5 from './assets/project/groceries.png' 
+import projectImage6 from './assets/project/AI.png'
 
-// Logos
+// // Logos
 export const logos = {
     logogradient: logogradient,
     logo: logo,
@@ -52,8 +52,8 @@ export const personalDetails = {
 
 // social media urls
 export const socialMediaUrl = {
-    linkedin: "https://www.linkedin.com",
-    github: "https://www.github.com",
+    linkedin: "https://www.linkedin.com/in/james-russell-22269447/",
+    github: "https://github.com/Jimmybubbles",
     twitter: "https://www.twitter.com",
     instagram: "https://www.instagram.com"
 }
@@ -73,11 +73,25 @@ export const workDetails = [
 // Education details
 export const eduDetails = [
     {
-        Position: "Full stack developer",
-        University: "Monash University",
+        Course: "Monash Full Stack bootcamp",
+        Company: "Monash University",
         Location: "Online",
         Type: "bootcamp",
         Duration: "August 2022 - February 2023",
+    },
+    {
+        Course: "JAVA Course",
+        Company: "CodingWithJohn",
+        Location: "Online",
+        Type: "bootcamp",
+        Duration: "March 2023 - April 2023",
+    },
+    {
+        Course: "C++ Programming Bootcamp",
+        Company: "Derek Banas udemy ",
+        Location: "Online",
+        Type: "bootcamp",
+        Duration: "Dec 2022 - April 2023",
     },
 
 ];
@@ -105,12 +119,11 @@ export const projectDetails = [
 {
     title: "STOCK full stack application",
     image: projectImage1,
-    description: `stock screening application that downloads new close price daily and then allows the user to search baised on existing strategies. 
-    
-    work in progress.`,
+    description: `full stack application of all the stock research I do.
+using web scaping and database manipulation of price`,
     techstack: "Jinja templates, sematic ui, python",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    previewLink: "workInProgress",
+    githubLink: "https://github.com/Jimmybubbles/python_finance",
   },
 
   {
@@ -120,47 +133,43 @@ export const projectDetails = [
     
     credit to youtuber lamadev for original`,
     techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    previewLink: "null",
+    githubLink: "https://github.com/Jimmybubbles/booking-application",
   },
 
   {
-    title: "",
+    title: "Personal finance message alerts",
     image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
+    description: `working on client alert systems - email, sms etc`,
+    techstack: "HTML/CSS, JavaScripts/ python",
+    previewLink: "null",
     githubLink: "https://github.com",
   },
 
   {
-    title: "Project title 2",
+    title: "Search function",
     image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `Search function logic practice`,
     techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
+    previewLink: "null",
     githubLink: "https://github.com",
   },
 
   {
-    title: "Project title 2",
+    title: "Shopping list cross platform",
     image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
+    description: `generic todo in java`,
+    techstack: "JAVA EE",
+    previewLink: "null",
     githubLink: "https://github.com",
   },
 
   {
-    title: "Project title 2",
+    title: "GPT5",
     image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
+    description: `This project will probably be done using GPT5`,
+    techstack: "AI Gods",
+    previewLink: "null",
     githubLink: "https://github.com",
   },
 ]

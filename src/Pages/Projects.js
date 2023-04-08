@@ -1,4 +1,4 @@
-import React, { lazy } from "react";
+import React from "react";
 import Project from "../Components/Project"
 import { projectDetails } from "../details";
 
@@ -15,7 +15,7 @@ function Projects() {
                             <Project
                                 title={title}
                                 image={image}
-                                descirption={description}
+                                description={description}
                                 techstack={techstack}
                                 previewLink={previewlink}
                                 githubLink={githubLink}
